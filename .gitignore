@@ -1,0 +1,52 @@
+# Ignore files by default; allow directory traversal to discover scripts.
+*
+!*/
+!/.gitignore
+
+# Track Python and shell scripts.
+!*.py
+!*.sh
+!*.bash
+!*.zsh
+
+# Keep experiment results, figures, and validation artifacts for reproducibility.
+!/results/**
+!/Proj/results/**
+!/validation/**
+
+# Always exclude environments, caches, and temporary output.
+.venv/
+venv/
+env/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.ipynb_checkpoints/
+.eggs/
+*.egg-info/
+build/
+dist/
+data/
+cache/
+.cache/
+.matplotlib_cache/
+.DS_Store
+._*
+*.log
+checkpoints/
+/tmp/
+.idea/
+.vscode/
+.git/
+
+# Exclude all paper drafts, reports, presentations, and reference papers.
+/CitedPapers/
+/Draft/
+/RevisedDraft/
+/FinalReport/
+/InterimReport/
+/Plan/
+/Presentation/
