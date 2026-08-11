@@ -1,0 +1,21 @@
+{
+  "barrier_tolerance": 0.1,
+  "converged": 1,
+  "li_path_tolerance": 0.5,
+  "max_barrier_error": 0.04005373890602004,
+  "max_framework_mae": 0.10190943700752808,
+  "max_geometry_mae": 0.10259195847285484,
+  "max_li_path_mae": 0.17766931965879834,
+  "max_max_force": 0.09058949513188479,
+  "max_profile_rmse": 0.049849872811119,
+  "max_stored_barrier_error": 1.7307616650974467e-07,
+  "mean_barrier_error": 0.04005373890602004,
+  "mean_framework_mae": 0.10190943700752808,
+  "mean_geometry_mae": 0.10259195847285484,
+  "mean_li_path_mae": 0.17766931965879834,
+  "mean_max_force": 0.09058949513188479,
+  "mean_profile_rmse": 0.049849872811119,
+  "mean_stored_barrier_error": 1.7307616650974467e-07,
+  "passed": 1,
+  "samples": 1
+}

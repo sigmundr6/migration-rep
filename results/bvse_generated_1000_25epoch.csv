@@ -1,0 +1,13 @@
+method,parameters,train_mae,val_mae,test_mae
+crystal,34593,0.6684,0.6859,0.9216
+midpoint,34593,0.4096,0.4444,0.7064
+trajectory,34593,0.4143,0.4878,0.565
+positional,34593,0.2284,0.2997,0.3647
+segmented,34593,0.4157,0.5709,0.6549
+randomized,34593,0.6657,0.6816,0.9479
+image_coordination,34593,0.2775,0.3606,0.5603
+geometric_bottleneck,34593,0.3397,0.3727,0.5202
+coordination_change,34593,0.3948,0.4689,0.5757
+species_image,34593,0.539,0.6397,0.8235
+position_aware_trajectory_graph,34593,0.3331,0.3635,0.5725
+position_aware_trajectory_graph_shuffled,34593,0.3673,0.4105,0.5588

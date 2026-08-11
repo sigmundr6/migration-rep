@@ -1,0 +1,2 @@
+edge_id,split,images,published_barrier,stored_geometry_barrier,stored_barrier_error,regenerated_barrier,barrier_error,geometry_mae,li_path_mae,framework_mae,profile_rmse,max_force,converged,passed
+mp-1020015_2_5_1_0_1,train,7,0.437808680841943,0.43780885391810953,1.7307616650974467e-07,0.47786241974796306,0.04005373890602004,0.10259195847285484,0.17766931965879834,0.10190943700752808,0.049849872811119,0.09058949513188479,True,True
