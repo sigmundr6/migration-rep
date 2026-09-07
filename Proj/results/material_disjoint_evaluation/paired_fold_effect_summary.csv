@@ -1,0 +1,6 @@
+comparison,folds,mean_mae_improvement,std_mae_improvement,folds_improved,fraction_folds_improved
+affine_minus_delta,5,0.0681976893978701,0.02092182834557043,5,1.0
+crystal_minus_midpoint,5,0.1690410593855925,0.043519515230701175,5,1.0
+midpoint_minus_positional,5,0.03665200567813885,0.012769771636895523,5,1.0
+midpoint_minus_trajectory,5,-0.01665224811077366,0.022946959285826813,1,0.2
+trajectory_minus_positional,5,0.053304253788912515,0.01692113068017707,5,1.0
