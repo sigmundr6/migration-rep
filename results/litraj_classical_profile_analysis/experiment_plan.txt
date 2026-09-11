@@ -1,0 +1,21 @@
+LiTraj descriptor experiment hierarchy
+======================================
+
+E1 confirmatory published descriptors
+  Test the five reported EdgeFeaturizer variables against delta_pos and delta_bvse.
+  Interpret bootstrap intervals and FDR-adjusted p-values; do not select features post hoc.
+
+E2 exploratory trajectory profiles
+  Test the minimum, maximum, range, extremum location, and left-right asymmetry of
+  Voronoi volume, effective coordination, neighbour covalent radius, and weighted
+  neighbour oxidation state along DFT and BVSE paths. Treat these as hypothesis-generating.
+
+E3 case analysis
+  Inspect the largest-help and largest-harm hops using the exported table. Compare
+  profile shapes and chemistry rather than inferring a mechanism from one scalar.
+
+Validity notes
+  Published definitions are run with the official ions EdgeFeaturizer, but the pristine
+  edge structure is reconstructed by appending the final Li endpoint to the initial NEB
+  image. This must be disclosed and should be validated on examples if pristine structures
+  become available. Correlations describe associations and do not establish causality.

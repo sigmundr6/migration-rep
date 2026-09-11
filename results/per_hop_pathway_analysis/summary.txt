@@ -1,0 +1,24 @@
+Per-hop pathway-benefit analysis
+================================
+
+delta_pos (midpoint error minus positional error)
+  hops: 220
+  mean improvement: 0.0554 eV
+  median improvement: 0.0227 eV
+  fraction helped: 0.559
+
+  dft_bottleneck_mean_k_distance: rho=-0.096 (95% bootstrap CI -0.237, 0.051)
+  bvse_bottleneck_mean_k_distance: rho=-0.095 (95% bootstrap CI -0.243, 0.064)
+  bvse_tortuosity: rho=0.074 (95% bootstrap CI -0.065, 0.214)
+
+delta_bvse (affine-BVSE error minus delta-model error)
+  hops: 220
+  mean improvement: 0.0560 eV
+  median improvement: 0.0587 eV
+  fraction helped: 0.686
+
+  affine_bvse_absolute_error: rho=0.547 (95% bootstrap CI 0.422, 0.657)
+  dft_coordination_range: rho=-0.168 (95% bootstrap CI -0.297, -0.030)
+  dft_barrier: rho=-0.166 (95% bootstrap CI -0.312, -0.014)
+
+Positive improvement means the pathway-aware method helped that hop.
