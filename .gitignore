@@ -3,6 +3,7 @@
 !*/
 !/.gitignore
 !/README.md
+!/LiTraj-main/LICENSE
 
 # Track Python and shell scripts.
 !*.py

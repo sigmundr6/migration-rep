@@ -148,4 +148,14 @@ The saved CSV/JSON tables include predictions, metrics, split assignments, or an
 
 For a new experiment, record the command, seed, split strategy, geometry source, target source, and dependency versions, and use a separate output directory where supported. The quick-start commands are examples, not a claim that they reproduce every retained result with identical settings. Inspect each runner's arguments and the corresponding saved artifacts when reproducing a particular experiment.
 
-The included LiTraj utilities identify their upstream project as `AIRI-Institute/LiTraj`; they provide the dataset infrastructure used by this project's pathway experiments.
+## LiTraj acknowledgement and license
+
+This project uses the [LiTraj dataset and Python utilities](https://github.com/AIRI-Institute/LiTraj), particularly the `nebDFT2k` benchmark, for lithium-ion migration pathway and barrier experiments. The utilities included under `LiTraj-main/` originate from LiTraj; credit for that software and the benchmark data belongs to their original authors.
+
+LiTraj's software is distributed under the [MIT License](https://github.com/AIRI-Institute/LiTraj/blob/main/LICENSE), copyright (c) 2024 AI Research and Skoltech. We use and redistribute the included LiTraj code under those terms and retain the original copyright and permission notice in [LiTraj-main/LICENSE](LiTraj-main/LICENSE). This notice applies to the included LiTraj software; it does not assign a license to this project's original code.
+
+Please cite the LiTraj paper when using its datasets:
+
+Dembitskiy, A. D. et al. (2025). [Benchmarking machine learning models for predicting lithium ion migration](https://doi.org/10.1038/s41524-025-01571-z). *npj Computational Materials*, 11, 131.
+
+LiTraj also credits the [Materials Project](https://next-gen.materialsproject.org/) as the source of its crystal structures and identifies their license as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Preserve the applicable source attribution and terms when reusing or redistributing those data. Full downloaded benchmark datasets are excluded from this repository; retained results and validation artifacts are described above.
