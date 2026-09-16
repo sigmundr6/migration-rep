@@ -159,3 +159,19 @@ Please cite the LiTraj paper when using its datasets:
 Dembitskiy, A. D. et al. (2025). [Benchmarking machine learning models for predicting lithium ion migration](https://doi.org/10.1038/s41524-025-01571-z). *npj Computational Materials*, 11, 131.
 
 LiTraj also credits the [Materials Project](https://next-gen.materialsproject.org/) as the source of its crystal structures and identifies their license as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Preserve the applicable source attribution and terms when reusing or redistributing those data. Full downloaded benchmark datasets are excluded from this repository; retained results and validation artifacts are described above.
+
+## Pinned dependencies and interactive comparison
+
+The supplied [requirements file](Proj/requirements.txt) records package versions and environment notes for the experiments. Install it from the repository root:
+
+```bash
+python3.11 -m pip install -r Proj/requirements.txt
+```
+
+Generate the interactive twelve-method comparison from the saved summary and seed metrics:
+
+```bash
+python Proj/interactive_method_comparison.py
+```
+
+Download [the standalone HTML comparison](results/interactive_method_comparison.html) and open it in a browser. It includes Plotly and the result data, so no Python server is required. Use the metric selector and core-method filter to explore the results.

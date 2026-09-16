@@ -1,0 +1,33 @@
+# Reproduction environment for the migration-representation experiments.
+#
+# Results in the dissertation were generated with Python 3.11.13 on macOS
+# (Apple Silicon).  PyTorch's MPS backend is included in the macOS torch wheel;
+# no separate MPS package is required.
+#
+# Install from the repository root with:
+#   python3.11 -m pip install -r Proj/requirements.txt
+
+# Shared numerical and machine-learning stack
+numpy==2.4.6
+pandas==3.0.5
+scipy==1.17.1
+scikit-learn==1.7.2
+torch==2.6.0
+
+# Atomistic structures, BVSE generation, and LiTraj descriptors
+ase==3.29.0
+ions==0.4.1
+pymatgen==2026.5.4
+networkx==3.6.1
+spglib==2.7.0
+
+# LiTraj dataset loader bundled with this repository
+-e ./LiTraj-main
+
+# Analysis and figure generation
+matplotlib==3.11.1
+plotly==7.0.0
+
+# LiTraj runtime dependencies (pinned to the reproduction environment)
+requests==2.34.2
+tqdm==4.70.0

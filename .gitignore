@@ -4,6 +4,9 @@
 !/.gitignore
 !/README.md
 !/LiTraj-main/LICENSE
+!/LiTraj-main/README.md
+!/LiTraj-main/pyproject.toml
+!/Proj/requirements.txt
 
 # Track Python and shell scripts.
 !*.py
